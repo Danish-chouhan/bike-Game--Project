@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.mainContainer {
+    height: 60vh;
+    margin: 30px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 2fr;
+}
+.bikeImg{
+position: absolute;
+top: 60%;
+left: 45%;
+height: 150px;
+}
+.container1 {
+    display: flex;
+    justify-content: center;
+}
+
+.container1 video{
+    width: 80%;
+}
+.container2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.handel {    
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRv1kroVNBCXiKT6bUInJ3f7MNJlXtGZL8pRF2h_DonaYZP0PNlGuOhJSgmI1Dp34oPhc&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size:auto;
+    background-position: center;
+
+}
+.controler {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.controler button{
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    border: none;
+    background-color: transparent;
+}
+.controler button:hover{
+    transition: 0.3s ease-in-out;
+    box-shadow: 0px 0px 10px black;
+}
+.break{
+    background-image: url("https://static.thenounproject.com/png/3568388-200.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.buttonConteinerHandel{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.buttonConteinerHandel button{
+    width: 20%;
+    background-color: transparent;
+    height: 40px;
+    border: none;
+}
+.buttonConteinerHandel button:hover{
+    transition: 0.3s ease-in-out;
+    box-shadow: 0px 0px 10px black;
+}
+.accelerator{
+    background-image: url("https://t3.ftcdn.net/jpg/05/24/00/78/360_F_524007830_ILgsHXOFvR4ppH045nzWLuCWA7kFb395.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
